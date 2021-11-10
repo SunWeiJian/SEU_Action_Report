@@ -9,8 +9,10 @@ class read_inform():
         self.load_json()
 
     def load_json(self):
-        inform = json.loads(os.environ["INFORM"])
+        f = open('env.json','r')
+        inform = json.load(f)
         self.seu = inform["seu_account"]
         self.api = inform["baidu_map_account"]
         self.gps_inform = inform["gps_inform"]
         self.serverchan = inform['serverchan']
+        f.close()
