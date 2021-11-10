@@ -1,0 +1,18 @@
+{
+    "seu_account": {
+      "username": "一卡通号", 
+      "password": "信息门户密码", 
+      "name": "姓名"
+    }, 
+    "baidu_map_account": {
+      "ak": "百度地图api的ak", 
+      "sk": "百度地图api的sk"
+    }, 
+    "gps_inform": {
+      "enable_gps": 0, 
+      "LAT": 31.88373374938965, 
+      "LON": 118.80831146240234
+    }, 
+    "serverchan": "0"
+}
+  
